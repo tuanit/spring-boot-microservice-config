@@ -8,6 +8,9 @@ spring:
 eureka:
   instance:
     hostname: localhost
+    health-check-url-path: /health
+    status-page-url-path: /info
+    home-page-url-path: /
   client:
     registerWithEureka: true
     fetchRegistry: true

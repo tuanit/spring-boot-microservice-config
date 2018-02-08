@@ -19,7 +19,7 @@ spring:
             rating:
               label: master
 server:
-  port: 8888
+  port: 8887
 endpoints:
   restart:
     enabled: true
@@ -51,7 +51,7 @@ spring:
             movie:
               label: master
 server:
-  port: 8888
+  port: 8887
 endpoints:
   restart:
     enabled: true
